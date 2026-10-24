@@ -1,0 +1,24 @@
+.Menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+}
+
+.Menu a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 25px;
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+
+.Menu p:hover {
+    transition: 0.2s;
+    color: rgb(255, 251, 251);
+}
+
+.Menu a:hover {
+    transition: 0.2s;
+    color: rgb(255, 251, 251);
+}
